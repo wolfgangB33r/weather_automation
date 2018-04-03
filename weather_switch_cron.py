@@ -39,7 +39,7 @@ def main():
 		entries = json_data['list']
 		switch = True
 		for i in range(0, 5):
-			if entries[i]['rain']:
+			if 'rain' in entries[i]:
 				switch = False
 		if switch:
 			SwitchOn()
