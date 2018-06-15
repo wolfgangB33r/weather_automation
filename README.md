@@ -17,3 +17,7 @@ To turn on, send following UDP package, where you replace MAC with your own devi
 To turn off send following UDP payload:
 
 01 42 MAC 10 F7B4E74B970D96F3CA2BB5D3CD1C19D0
+
+
+The mobile app communicates with a central authority:
+http://smart2connect.yunext.com/api/device/wifi/list/?
